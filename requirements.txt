@@ -1,2 +1,2 @@
-apistar
+apistar@https://github.com/maerteijn/apistar/tarball/master#egg=apistar-0.7.2
 

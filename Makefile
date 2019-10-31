@@ -7,8 +7,8 @@ docs-apistar:
 docs-redoc:
 	apistar docs --serve --path petstore.yaml --theme redoc --format openapi --encoding yaml
 
+validate-schema:
+	 apistar validate --path petstore.yaml --format openapi
+
 openapi-generate-flask:
 	docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate -i /local/petstore.yaml -g python-flask -o /local/builds/python-flask
-
-openapi-generate-nodejs:
-	docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate -i /local/petstore.yaml -g nodejs-express-server -o /local/builds/nodejs-express-server

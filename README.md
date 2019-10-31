@@ -1,5 +1,7 @@
 # lightning-talk-4d-openapi
-A lighting talk about OpenAPI.
+A lighting talk about OpenAPI
+
+## Usage
 
 Requirements for the tools used:
 - docker

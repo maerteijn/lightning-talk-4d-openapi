@@ -11,4 +11,4 @@ validate-schema:
 	 apistar validate --path petstore.yaml --format openapi
 
 openapi-generate-flask:
-	docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate -i /local/petstore.yaml -g python-flask -o /local/builds/python-flask
+	docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate -i /local/petstore.yaml -g python-flask -o /local/output/python-flask

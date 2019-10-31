@@ -41,7 +41,7 @@ paths:
               schema:
                 $ref: "#/components/schemas/Pets"
               examples:
-                cats:
+                default:
                   summary: a list of cats
                   value:
                     [{

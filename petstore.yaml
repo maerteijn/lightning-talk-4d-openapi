@@ -124,14 +124,3 @@ components:
           format: int32
         message:
           type: string
-  examples:
-    cats:
-      summary: a list of cats
-      value:
-        [{
-          "id": 0,
-          "name": "felix",
-          "tags": "cat"
-        }]
-
-

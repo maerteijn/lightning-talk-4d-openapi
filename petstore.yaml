@@ -60,6 +60,27 @@ paths:
       operationId: createPets
       tags:
         - pets
+      requestBody:
+        description: "A Pet has an id, a name and an optional tag"
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Pet"
+            examples:
+              cat:
+                summary: A cat
+                value:
+                    id: 1
+                    name: Felix
+                    tag: cat
+              dog:
+                summary: A dog
+                value:
+                    id: 1
+                    name: Canis
+                    tag: cat
+
       responses:
         '201':
           description: Null response

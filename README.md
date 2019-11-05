@@ -45,7 +45,3 @@ make openapi-generate-flask
 - https://swagger.io
 - https://github.com/Redocly/redoc
 - https://www.django-rest-framework.org/api-guide/schemas/
-
-
-
-
